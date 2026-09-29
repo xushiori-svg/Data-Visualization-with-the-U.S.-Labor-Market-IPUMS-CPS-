@@ -19,12 +19,14 @@ To download the same raw data:
 
 ## Folders
 
+```
 CPS-Unemployment-Education/
 ├── README.md
 ├── CPS-Unemployment-Education.Rproj
-├── 01_load_clean.R          # reads raw data, makes education groups
-├── 02_compute_rates.R       # calculates weighted unemployment rates
-├── 03_figures.R             # makes the three figures
+├── scripts/
+│   ├── 01_load_clean.R      # reads raw data, makes education groups
+│   ├── 02_compute_rates.R   # calculates weighted unemployment rates
+│   └── 03_figures.R         # makes the three figures
 ├── data/
 │   ├── raw/                 # raw IPUMS files (not uploaded in Github)
 │   └── processed/
@@ -37,6 +39,7 @@ CPS-Unemployment-Education/
         ├── fig1_unemp_by_educ.png
         ├── fig2_unemp_by_sex_educ.png
         └── fig3_recession_aligned.png
+```
 
 ## How to run
 

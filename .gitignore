@@ -8,3 +8,4 @@ data/raw/
 .RData
 .DS_Store
 00_clean_test.R
+blog/
